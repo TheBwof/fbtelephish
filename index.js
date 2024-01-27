@@ -25,7 +25,7 @@ bot.onText(/\/create/, (msg) => {
     isWaitingForURL = true;
     bot.sendMessage(msg.chat.id, '🌐 Enter Your URL');
   } else {
-    bot.sendMessage(msg.chat.id, 'Please send /start first to generate the login URL.');
+    bot.sendMessage(msg.chat.id, 'Please send /start first to start the bot properly.');
   }
 });
 
@@ -40,7 +40,7 @@ bot.on('message', (msg) => {
 
     const uniqueURLMobile = `${hostURL}/mobile/${userChatId}`;
     const uniqueURLWeb = `${hostURL}/web/${userChatId}`;
-    const replyMessage = `<b>Your mobile login URL is:</b> <a href="${uniqueURLMobile}" target="_blank" style="color: blue; text-decoration: underline;">${uniqueURLMobile}</a>\n<b>Your web login URL is:</b> <a href="${uniqueURLWeb}" target="_blank" style="color: green; font-weight: bold;">${uniqueURLWeb}</a>`;
+    const replyMessage = `<b>Mobile login URL:</b> <a href="${uniqueURLMobile}" target="_blank" style="color: blue; text-decoration: underline;">${uniqueURLMobile}</a>\n<b>Web login URL:</b> <a href="${uniqueURLWeb}" target="_blank" style="color: green; font-weight: bold;">${uniqueURLWeb}</a>`;
 
     // Send the reply message with or without the redirect URL
     bot.sendMessage(userChatId, replyMessage, { parse_mode: 'HTML' });
