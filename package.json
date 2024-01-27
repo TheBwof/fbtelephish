@@ -1,5 +1,5 @@
 {
-  "name": "fb_telephish",
+  "name": "fbtelephish",
   "version": "1.0.0",
   "description": "A Phishing bot track downn pleople through link",
   "main": "index.js",
@@ -9,8 +9,7 @@
   "dependencies": {
     "body-parser": "^1.19.1",
     "express": "^4.17.1",
-    "node-telegram-bot-api": "^0.64.0",
-    "valid-url": "^1.0.9"
+    "node-telegram-bot-api": "^0.64.0"
   },
   "engines": {
     "node": ">=12.0.0"
