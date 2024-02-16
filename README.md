@@ -36,7 +36,9 @@ This tool is based upon [Facebook-phishing](https://github.com/TheBwof/Facebook-
 * The website where you want the user to be redirected after getting information.
 
 #### Demo img
- * ![Image](https://raw.githubusercontent.com/TheBwof/fbtelephish/main/src/mobile.jpg)
+ | ![Mobile](https://raw.githubusercontent.com/TheBwof/fbtelephish/main/src/mobile.jpg) | ![Web](https://raw.githubusercontent.com/TheBwof/fbtelephish/main/src/web.jpg) |
+|:---:|:---:|
+| *Mobile* | *Web* |
 
 ### Credits
  * [Fahim Ahamed](https://www.facebook.com/fahimahamed24) (For His Camphish)
