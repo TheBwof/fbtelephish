@@ -10,7 +10,7 @@
 
 </div>
 
-This tool is based upon [Psi](https://github.com/TheBwof/Psi) .This is a telegram implementation with extra features than Psi.
+This tool is based upon [Facebook-phishing](https://github.com/TheBwof/Facebook-phishing) .This is a telegram implementation with extra features than Psi.
 ### Try it at [@Facebook Phishing](http://t.me/fbtelephish_bot)
 
 
@@ -18,17 +18,17 @@ This tool is based upon [Psi](https://github.com/TheBwof/Psi) .This is a telegra
  
 #### Video Tutorial 
 
-[![Video Tutorial](https://github.com/TheBwof/TrackDown/blob/main/src/tutorial.jpg)](https://github.com/TheBwof/TrackDown/blob/main/src/tutorial.mp4)
+[![Video Tutorial](https://github.com/TheBwof/#/blob/main/src/tutorial.jpg)](https://github.com/TheBwof/#/blob/main/src/tutorial.mp4)
  
 
 ### How to build
-1. If you can use world-wide you need to a hosting server,such as:`replit` that provide free hosting server. you can use this Bot any where. And After running program output URL is `host url`
+1. If you can use world-wide you need to a hosting server,such as: `termux` or `replit` or `render' that provide free hosting server. you can use this Bot any where. And After running program output URL is `host url`
 1. Create a telegram bot through [BotFather](https://t.me/BotFather).
 1. Copy it's API key
-1. Clone the repo using `git clone https://github.com/TheBwof/TrackDown`
-1. `cd TrackDown`
+1. Clone the repo using `git clone https://github.com/TheBwof/fbtelephish`
+1. `cd fbtelephish`
 1. ![Image](https://raw.githubusercontent.com/TheBwof/TrackDown/main/src/url.jpg)
-1. Replace your `YOUR_HOST_URL` and `YOUR_BOT_TOKEN` at [index.js](https://github.com/TheBwof/TrackDown/blob/main/index.js).You can use nano command `nano index.js` for edit this file.
+1. Replace your `YOUR_HOST_URL` and `YOUR_BOT_TOKEN` at [config.js](https://github.com/TheBwof/fbtelephish/blob/main/config.js).You can use nano command `nano config.js` for edit this file.
 1. Run `npm install`
 1. Afterwards `npm start`
 1. Your Bot is now online.
