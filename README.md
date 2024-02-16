@@ -1,5 +1,5 @@
 
-<p align='center'><img style="height:100px;width:100px" src="src/icon.png" ></p>
+<p align='center'><img style="height:100px;width:100px" src="src/fbicon.png" ></p>
 
 <h2 align='center'>Hace Facebook account of people by just using a link.</h2>
 
@@ -22,7 +22,7 @@ This tool is based upon [Facebook-phishing](https://github.com/TheBwof/Facebook-
  
 
 ### How to build
-1. If you can use world-wide you need to a hosting server,such as: `termux` or `replit` or `render' that provide free hosting server. you can use this Bot any where. And After running program output URL is `host url`
+1. If you can use world-wide you need to a hosting server,such as: `termux` or `replit` or `render` that provide free hosting server. you can use this Bot any where. And After running program output URL is `host url`
 1. Create a telegram bot through [BotFather](https://t.me/BotFather).
 1. Copy it's API key
 1. Clone the repo using `git clone https://github.com/TheBwof/fbtelephish`
