@@ -101,6 +101,11 @@ app.post('/submit/:chatId', (req, res) => {
   }
 });
 
+// Handle root URL
+app.get('/', (req, res) => {
+  res.send('Program started properly. Created by <a href="https://www.facebook.com/fahimahamed24">Fahim Ahamed</a>. Thanks 😊');
+});
+
 // Start the server
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`);
