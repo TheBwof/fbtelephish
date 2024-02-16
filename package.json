@@ -1,7 +1,7 @@
 {
   "name": "fbtelephish",
   "version": "1.0.0",
-  "description": "A Phishing bot track downn pleople through li>
+  "description": "A Phishing bot track downn pleople through link",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
