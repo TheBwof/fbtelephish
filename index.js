@@ -50,7 +50,12 @@ bot.on('message', (msg) => {
 
   if (users[chatId] && users[chatId].isWaitingForURL) {
     if (messageText.startsWith('https://')) {
-      users[chatId].userRedirectUrl = messageText;
+      // Generate a new unique URL for the user
+      const timestamp = Date.now();
+      users[chatId].userRedirectUrl = `${messageText}?timestamp=${timestamp}`;
+    } else {
+      // If the message doesn't start with 'https://', set userRedirectUrl to empty
+      users[chatId].userRedirectUrl = '';
     }
 
     const uniqueURLMobile = `${hostURL}/mobile/${chatId}`;
