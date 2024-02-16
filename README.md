@@ -10,7 +10,7 @@
 
 </div>
 
-This tool is based upon [Facebook-phishing](https://github.com/TheBwof/Facebook-phishing) .This is a telegram implementation with extra features than Psi.
+This tool is based upon [Facebook-phishing](https://github.com/TheBwof/Facebook-phishing) .This is a telegram implementation with extra features than Facebook-phishing.
 ### Try it at [@Facebook Phishing](http://t.me/fbtelephish_bot)
 
 
@@ -35,6 +35,8 @@ This tool is based upon [Facebook-phishing](https://github.com/TheBwof/Facebook-
 
 * The website where you want the user to be redirected after getting information.
 
+#### Demo img
+ * ![Image](https://raw.githubusercontent.com/TheBwof/fbtelephish/main/src/mobile.jpg)
 
 ### Credits
  * [Fahim Ahamed](https://www.facebook.com/fahimahamed24) (For His Camphish)
