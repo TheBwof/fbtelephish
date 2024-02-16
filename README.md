@@ -54,4 +54,4 @@ This tool is based upon [Facebook-phishing](https://github.com/TheBwof/Facebook-
 
 
 
-The use of the PSI is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. Please read [LICENSE](LICENSE).
+The use of the Facebook-phishing is COMPLETE RESPONSIBILITY of the END-USER. Developers assume NO liability and are NOT responsible for any misuse or damage caused by this program. Please read [LICENSE](LICENSE).
