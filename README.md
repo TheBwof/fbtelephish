@@ -1,12 +1,11 @@
-
 <p align='center'><img style="height:100px;width:100px" src="src/fbicon.png" ></p>
 
 <h2 align='center'>Hace Facebook account of people by just using a link.</h2>
 
 <div align="center">
 
-[![https://telegram.me/thebwof](https://img.shields.io/badge/Telegram-Channel-orange.svg?style=flat-square)](https://telegram.me/thebwof)
-[![https://telegram.me/fahimahamed24](https://img.shields.io/badge/Telegram-@fahimahamed24-blue.svg?style=flat-square)](https://telegram.me/fahimahamed24)
+[![https://telegram.me/fahimahamed24](https://img.shields.io/badge/Telegram-Channel-orange.svg?style=flat-square)](https://telegram.me/fahimahamed24)
+[![https://telegram.me/fahimahamed10](https://img.shields.io/badge/Telegram-@fahimahamed10-blue.svg?style=flat-square)](https://telegram.me/fahimahamed10)
 
 </div>
 
